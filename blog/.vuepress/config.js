@@ -195,7 +195,7 @@ module.exports = {
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#pwa
      */
 
-    // pwa:true,
+    pwa:true,
 
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#paginationcomponent
