@@ -20,11 +20,8 @@
   "scripts": {
     "blog:build": "vuepress build blog --temp blog/.temp",
     "blog:dev": "vuepress dev blog --temp blog/.temp",
-    "docs:build": "vuepress build docs",
-    "docs:dev": "vuepress dev docs",
     "lint": "eslint . --ext .js,.vue",
-    "prepublishOnly": "npm run test && npm run blog:build && conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
-    "test": "jest"
+    "prepublishOnly": "npm run test && npm run blog:build && conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },
   "husky": {
     "hooks": {
