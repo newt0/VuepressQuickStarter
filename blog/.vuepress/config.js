@@ -13,20 +13,24 @@ module.exports = {
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#nav
      */
 
-    // nav: [
-    //   {
-    //     text: 'Blog',
-    //     link: '/',
-    //   },
-    //   {
-    //     text: 'Tags',
-    //     link: '/tag/',
-    //   },
-    //   {
-    //     text: 'Location',
-    //     link: '/location/',
-    //   },
-    // ],
+    nav: [
+      {
+        text: 'Blog',
+        link: '/',
+      },
+      {
+        text: 'Tags',
+        link: '/tag/',
+      },
+      {
+        text: '本サイト',
+        link: 'https://vue10nuxt.netlify.app/',
+      },
+      // {
+      //   text: 'Location',
+      //   link: '/location/',
+      // },
+    ],
 
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#footer
