@@ -66,3 +66,6 @@ blog/.vuepress/dist
 
 ## Google Analitics
 Vuepressのプラグインを使うより、NetlifyのSnippets Injectionを使う方が簡単。
+
+## Google Search Console
+NetlifyのSnippets Injectionを使うのが一番簡単。
