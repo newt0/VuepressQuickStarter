@@ -40,3 +40,5 @@ module.exports = {
 
 
 # VuepressQuickStarter
+## 公式レポジトリからファイルをダウンロード後、yarnコマンドを実行してnode_modulesをインストールします。
+yarn
