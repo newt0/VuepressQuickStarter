@@ -50,3 +50,16 @@ yarn upgrade
 ## 動くか確認します。
 yarn example:dev(exampleのディレクトリ名はblog等適切なものに修正したいところですが、後回しにします)
 http://localhost:8080/
+
+## build
+yarn blog:build
+
+## deploy
+### NetlifyURL
+https://vuepress-blog-quickstarter.netlify.app/
+
+### build command
+yarn blog:build
+
+### publish directory
+blog/.vuepress/dist
