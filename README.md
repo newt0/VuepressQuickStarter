@@ -63,3 +63,6 @@ yarn blog:build
 
 ### publish directory
 blog/.vuepress/dist
+
+## Google Analitics
+Vuepressのプラグインを使うより、NetlifyのSnippets Injectionを使う方が簡単。
