@@ -189,7 +189,7 @@ module.exports = {
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#summarylength
      */
 
-    // summaryLength:100,
+    summaryLength:100,
 
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#pwa
