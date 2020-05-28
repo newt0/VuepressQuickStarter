@@ -28,11 +28,11 @@
             itemtype="http://schema.org/Person"
             itemscope
           >
-            <NavigationIcon />
-            <span itemprop="name">{{ page.frontmatter.author }}</span>
-            <span v-if="page.frontmatter.location" itemprop="address">
+            <!-- <NavigationIcon /> -->
+            <!-- <span itemprop="name">{{ page.frontmatter.author }}</span> -->
+            <!-- <span v-if="page.frontmatter.location" itemprop="address">
               &nbsp; in {{ page.frontmatter.location }}
-            </span>
+            </span> -->
           </div>
 
           <div v-if="page.frontmatter.date" class="ui-post-meta ui-post-date">
