@@ -40,5 +40,13 @@ module.exports = {
 
 
 # VuepressQuickStarter
+
 ## 公式レポジトリからファイルをダウンロード後、yarnコマンドを実行してnode_modulesをインストールします。
 yarn
+
+## yarn upgradeコマンドを実行してnode_modulesを最新版にします。
+yarn upgrade
+
+## 動くか確認します。
+yarn example:dev(exampleのディレクトリ名はblog等適切なものに修正したいところですが、後回しにします)
+http://localhost:8080/
