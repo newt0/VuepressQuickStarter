@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'VuePress Blog Example',
-  description: 'This is a blog example built by VuePress',
+  title: 'VuePressで爆速で記事を書き始めよう！',
+  description: 'Vuepressでブログを始めるためのクイックスターターです。最短最速でサイト構築を完了させることで、記事を書くことに専念できます。',
   theme: require.resolve('../../'),
   themeConfig: {
     /**
