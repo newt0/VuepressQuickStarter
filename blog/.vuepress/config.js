@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'VuePressで爆速で記事を書き始めよう！',
+  title: 'VuePressクイックスターター for Blog',
   description: 'Vuepressでブログを始めるためのクイックスターターです。最短最速でサイト構築を完了させることで、記事を書くことに専念できます。',
   theme: require.resolve('../../'),
   themeConfig: {
