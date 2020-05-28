@@ -33,72 +33,72 @@ module.exports = {
      */
     footer: {
       contact: [
-        {
-          type: 'codepen',
-          link: '/',
-        },
-        {
-          type: 'codesandbox',
-          link: '/',
-        },
-        {
-          type: 'facebook',
-          link: '/',
-        },
+        // {
+        //   type: 'codepen',
+        //   link: '/',
+        // },
+        // {
+        //   type: 'codesandbox',
+        //   link: '/',
+        // },
+        // {
+        //   type: 'facebook',
+        //   link: '/',
+        // },
         {
           type: 'github',
-          link: 'https://github.com/vuepressjs/vuepress-theme-blog',
+          link: 'https://github.com/newt0',
         },
-        {
-          type: 'gitlab',
-          link: '/',
-        },
-        {
-          type: 'instagram',
-          link: '/',
-        },
-        {
-          type: 'linkedin',
-          link: '/',
-        },
-        {
-          type: 'mail',
-          link: '/',
-        },
-        {
-          type: 'messenger',
-          link: '/',
-        },
-        {
-          type:'music',
-          link:'/'
-        },
-        {
-          type: 'phone',
-          link: '/',
-        },
+        // {
+        //   type: 'gitlab',
+        //   link: '/',
+        // },
+        // {
+        //   type: 'instagram',
+        //   link: '/',
+        // },
+        // {
+        //   type: 'linkedin',
+        //   link: '/',
+        // },
+        // {
+        //   type: 'mail',
+        //   link: '/',
+        // },
+        // {
+        //   type: 'messenger',
+        //   link: '/',
+        // },
+        // {
+        //   type:'music',
+        //   link:'/'
+        // },
+        // {
+        //   type: 'phone',
+        //   link: '/',
+        // },
         {
           type: 'twitter',
-          link: 'https://twitter.com/vuepressjs',
+          link: 'https://twitter.com/vue_nuxt',
         },
-        {
-          type:'video',
-          link:'/'
-        },
+        // {
+        //   type:'video',
+        //   link:'/'
+        // },
         {
           type: 'web',
-          link: '/',
+          link: 'https://qiita.com/kyohei_ai',
         },
-        {
-          type: 'youtube',
-          link: '/'
-        }
+        // {
+        //   type: 'youtube',
+        //   link: '/'
+        // }
       ],
       copyright: [
-        {
-          text: 'Privacy Policy',
-          link: 'https://policies.google.com/privacy?hl=en-US',
-        },
+        // {
+        //   text: 'Privacy Policy',
+        //   link: 'https://policies.google.com/privacy?hl=en-US',
+        // },
         {
           text: 'MIT Licensed | Copyright © 2018-present Vue.js',
           link: '',
