@@ -39,33 +39,39 @@ module.exports = {
 > [github.com/ulivz](https://github.com/ulivz) · GitHub [@ULIVZ](https://github.com/ulivz) · Twitter [@_ulivz](https://twitter.com/_ulivz)
 
 
-# VuepressQuickStarter
+# Vuepress QuickStarter
+@vuepress/theme-blogを修正して、即座にブログが始められるようにしました。
 
-## 公式レポジトリからファイルをダウンロード後、yarnコマンドを実行してnode_modulesをインストールします。
-yarn
+## インストール
+本レポジトリからファイルをダウンロード後、yarnコマンドを実行してnode_modulesをインストールします。
+`yarn`
 
-## yarn upgradeコマンドを実行してnode_modulesを最新版にします。
-yarn upgrade
+yarn upgradeコマンドを実行してnode_modulesを最新版にします。
+`yarn upgrade`
 
-## 動くか確認します。
-yarn example:dev(exampleのディレクトリ名はblog等適切なものに修正したいところですが、後回しにします)
+## 使い方
+### 動かす
+`yarn blog:dev`
+(ディレクトリ名はデフォルトのexampleから分かりやすいようにblogに修正しています)
+
 http://localhost:8080/
+でローカルサーバーが立ち上がります。
+他のプロジェクトで同時にローカルサーバーを起動している際は、念のためそちらを閉じてください。
 
-## build
-yarn blog:build
+### build(静的ファイルを出力)
+`yarn blog:build`
+でblog/.vuepress/distが出力されます。
+
+#### publish directory
+blog/.vuepress/dist
+Netlify等でホスティングする際はblog/.vuepress/distをdeploy先に指定してください。
 
 ## deploy
 ### NetlifyURL
 https://vuepress-blog-quickstarter.netlify.app/
 
-### build command
-yarn blog:build
-
-### publish directory
-blog/.vuepress/dist
-
 ## Google Analitics
-Vuepressのプラグインを使うより、NetlifyのSnippets Injectionを使う方が簡単。
+Vuepressのプラグインを使う方法より、NetlifyのSnippets Injectionを使う方が簡単で早いです。
 
 ## Google Search Console
-NetlifyのSnippets Injectionを使うのが一番簡単。
+NetlifyのSnippets Injectionを使うのが一番簡単です。
